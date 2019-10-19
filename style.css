@@ -1,0 +1,24 @@
+body {
+  background-color: red;
+}
+
+body #medium {
+  display: none;
+}
+
+body #large {
+  display: none;
+}
+
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+/*# sourceMappingURL=style.css.map */
